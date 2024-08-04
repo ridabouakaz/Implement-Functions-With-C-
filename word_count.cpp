@@ -13,12 +13,12 @@ It considers words separated by a specified character (defaulting to a space ' '
 st (string): The input string to be analyzed.
 sep (char, optional): The separator character used to identify word boundaries. Defaults to a space (' ').
 >>Behavior
-The function initializes a variable called result to 0 and a boolean flag called falge (I assume you meant ìflagî here).
+The function initializes a variable called result to 0 and a boolean flag called falge (I assume you meant ‚Äúflag‚Äù here).
 It iterates through each character in the input string:
 If the character is equal to the specified separator (sep), it increments result and sets falge to false.
 Otherwise (if the character is not the separator), it sets falge to true.
 After the loop, it checks the value of falge:
-If itís true, it increments result once more (to account for the last word).
+If it‚Äôs true, it increments result once more (to account for the last word).
 The function returns the total word count.*/
 int word_count(string st, char sep = ' ')
 {
