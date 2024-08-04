@@ -12,7 +12,7 @@ decriton (string, optional): Determines the trimming direction. Possible values:
 "all" (default): Trims characters from both ends.
 "left": Trims characters from the left (beginning) only.
 "right": Trims characters from the right (end) only.
-no (char, optional): The character to be trimmed. Defaults to a space (’ ').
+no (char, optional): The character to be trimmed. Defaults to a space (â€™ ').
 >>Behavior
 The function initializes two counters: countfirst (for leading characters) and countlast (for trailing characters).
 It scans the input string:
