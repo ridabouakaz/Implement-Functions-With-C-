@@ -7,7 +7,7 @@
 using namespace std;
 /*Description
 The parse_string function processes an input string (words)
-and transforms it by replacing specific characters. Here’s how it works:
+and transforms it by replacing specific characters. Hereâ€™s how it works:
 
 Replaces all occurrences of '=' with ':'.
 Replaces all occurrences of '&' with a newline ('\n').
